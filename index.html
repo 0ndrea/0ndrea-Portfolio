@@ -7,107 +7,140 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <section id="hero">
-        <!-- I don't know how to fix the spacing -->
-        <div class="large">@0ndrea</div>
-        <div class="xxlarge">Aundrea Grieco</div>
-        <p class="medium">
-          I’m a designer with an interest in user research, interface design,
-          and inclusive design. I work remotely for Nolly Studio as their junior
-          designer. I live in Winston Salem, NC, with my fiancé and my 20
-          plants.
-        </p>
-      </section>
+    <div class="container">
+      <main>
+        <section id="home">
+          <!-- Hero section -->
+          <section id="hero">
+            <h3>@0ndrea</h3>
+            <h1>Aundrea Grieco</h1>
+            <p class="h4">
+              I’m a designer with an interest in user research, interface
+              design, and inclusive design. I work remotely for Nolly Studio as
+              their junior designer. I live in Winston Salem, NC, with my fiancé
+              and my 20 plants.
+            </p>
+          </section>
+          <!-- Navigation -->
+          <nav id="main-nav">
+            <ul>
+              <!-- I want this nav to be in h2 -->
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+        <!-- Projects section -->
+        <section id="projects" class="full-height">
+          <h2>Projects</h2>
+          <div class="project">
+            <h3>Americans for the Arts: Website Redesign</h3>
+            <p>
+              As part of my bootcamp, we were tasked with redesigning a
+              nonprofit website. After careful consideration, myself and my two
+              group members chose AFTA because we recognized how a redesign
+              would greatly improve the user experience.
+            </p>
+            <img
+              src="afta-hero.png"
+              alt="Americans for the Arts"
+              class="project-image"
+            />
+            <a
+              href="https://0ndrea.notion.site/Americans-for-the-Arts-Website-Redesign-9aedc3475c1c4e70b17433b5316a230f"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View the full case study.</a
+            >
+          </div>
+          <div class="project">
+            <h3>BudgetBae: Mobile App Design</h3>
+            <p>
+              As part of my bootcamp, I was part of a team that wanted to create
+              a financial planning application for users who wanted to improve
+              their spending habits. As part of my contribution, I designed an
+              in-app survey that would gather personalized data about the user’s
+              spending habits and budgeting goals.
+            </p>
+            <img src="bb-hero.png" alt="BudgetBae" class="project-image" />
+            <a
+              href="https://0ndrea.notion.site/BudgetBae-Survey-Design-1bbea25ceeff44719657f5ccfd9bef96"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View the full case study.</a
+            >
+          </div>
+        </section>
+        <!-- Skills section -->
+        <section id="skills" class="full-height">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Figma</li>
+            <li>Agile Methodologies</li>
+            <li>Wireframing & Prototyping</li>
+            <li>User Research</li>
+            <li>Usability Testing</li>
+            <li>User Flows</li>
+            <li>Communication</li>
+            <li>Collaborative</li>
+            <li>Time Management</li>
+            <li>Problem Solving</li>
+            <li>Critical Thinking</li>
+            <li>Empathy</li>
+            <li>User-Centered Design Approach</li>
+            <li>Documentation</li>
+          </ul>
+        </section>
 
-      <!-- Navigation -->
-      <section id="navigation">
-        <li><a href="#projects" class="xlarge">Projects</a></li>
-        <li><a href="#skills" class="xlarge">Skills</a></li>
-        <li><a href="#contact" class="xlarge">Contact</a></li>
-      </section>
-
-      <section id="projects">
-        <div class="xlarge">Projects</div>
-        <!-- Add your projects here -->
-        <div class="project">
-          <h3>Americans for the Arts: Website Redesign</h3>
+        <!-- Contact section -->
+        <section id="contact" class="full-height">
+          <h2>Contact</h2>
           <p>
-            As part of my bootcamp, we were tasked with redesigning a nonprofit
-            website. After careful consideration, myself and my two group
-            members chose AFTA because we recognized how a redesign would
-            greatly improve the user experience.
+            Email:
+            <a href="mailto:drea.grieco3@gmail.com">drea.grieco3@gmail.com</a>
           </p>
-          <img
-            src="afta-hero.png"
-            alt="Americans for the Arts"
-            class="project-image"
-          />
-          <a
-            href="https://0ndrea.notion.site/Americans-for-the-Arts-Website-Redesign-9aedc3475c1c4e70b17433b5316a230f target="
-            target="_blank"
-            rel="noopener noreferrer"
-            >View the full case study.</a
-          >
-        </div>
-        <div class="project">
-          <h3>BudgetBae: Mobile App Design</h3>
           <p>
-            As part of my bootcamp, I was part of a team that wanted to create a
-            financial planning application for users who wanted to improve their
-            spending habits. As part of my contribution, I designed an in-app
-            survey that would gather personalized data about the user’s spending
-            habits and budgeting goals.
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/aundrea-grieco/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >linkedin.com/in/aundrea-grieco</a
+            >
           </p>
-          <img src="bb-hero.png" alt="BudgetBae" class="project-image" />
-          <a
-            href="https://0ndrea.notion.site/BudgetBae-Survey-Design-1bbea25ceeff44719657f5ccfd9bef96"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View the full case study.</a
-          >
-        </div>
-      </section>
+          <p>
+            GitHub:
+            <a
+              href="https://github.com/0ndrea"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github.com/0ndrea</a
+            >
+          </p>
+          <p>
+            <!-- button for online resume -->
+            <a
+              href="https://0ndrea.notion.site/Aundrea-Grieco-s-Resume-5f96e325d2d94ef18419758b776a3f59"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Resume</a
+            >
+          </p>
+        </section>
+      </main>
+    </div>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <!-- Add more skills as needed -->
-        </ul>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>
-          Email:
-          <a href="mailto:drea.grieco3@gmail.com">drea.grieco3@gmail.com</a>
-        </p>
-        <p>
-          LinkedIn:
-          <a
-            href="https://www.linkedin.com/in/aundrea-grieco/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >linkedin.com/in/aundrea-grieco</a
-          >
-        </p>
-        <p>
-          GitHub:
-          <a
-            href="https://github.com/0ndrea"
-            target="_blank"
-            rel="noopener noreferrer"
-            >github.com/0ndrea</a
-          >
-        </p>
-      </section>
-    </main>
-
+    <!-- Footer -->
     <footer>
       <p>&copy; 2024 Aundrea Grieco. All rights reserved.</p>
     </footer>
+
+    <!-- arrow to return to the top -->
+    <a href="#home" id="back-to-top" class="hidden">↑</a>
+
+    <script src="script.js"></script>
   </body>
 </html>
